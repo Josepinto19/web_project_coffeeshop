@@ -96,7 +96,31 @@
 
           </div>
         </section>
-        <section class="content content_reservation" id="Reservar-mesa"></section>
+        <section class="content content_reservation" id="Reservar-mesa">
+          <div class="reservation__content">
+            <h2 class="reservation__content reservation__title">Reservar una mesa</h2>
+            <div class="reservation__content reservation__form">
+              <fieldset class="reservation__form form__fieldset">
+                <label for="name" class="form__fieldset form__label">Nombre*</label>
+                <input type="text" class="form__fieldset form__input" id="name" name="name" placeholder="Nombre Apellido">
+
+                <label for="number-costumers" class="form__fieldset form__label">Número de comensales *</label>
+                <input type="number" class="form__fieldset form__input" id="number-costumers" name="number-costumers" placeholder="1-8">
+
+                <label for="date" class="form__fieldset form__label">Fecha y hora *</label>
+                <input type="date" class="form__fieldset form__input" id="date" name="date" placeholder="---">
+
+                <label for="" class="form__fieldset form__label">Tu correo electrónico *</label>
+                <input type="email" class="form__fieldset form__input" id="email" name="email" placeholder="email@email.com">
+
+              </fieldset>
+              <button class="reservation__form form__button">Reservar una mesa</button>
+              <input type="checkbox" class="reservation__form form__checkbox" id="terms-of-use" name="terms-of-use">
+              <label for="terms-of-use">Acepto los términos de uso</label>
+            </div>
+
+          </div>
+        </section>
         <section class="content content_menu" id="Menu"></section>
         <section class="content content_about" id="Contactos"></section>
       </main>

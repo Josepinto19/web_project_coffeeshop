@@ -203,3 +203,76 @@
 p{
   margin: 0;
 }
+.reservation__content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+}
+.reservation__title{
+  padding-top: 100px;
+}
+.reservation__form{
+  margin: auto;
+  padding-top: 80px;
+  max-width: 385px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.form__fieldset{
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+
+}
+.form__label{
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  column-gap: 8px;
+  margin-bottom: 8px;
+}
+.form__input{
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  height: 60px;
+  margin-bottom: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 15px;
+  bottom: 15px;
+}
+/*tener en cuenta que hace falta continuar arreglando la parte visual*/
+.form__button{
+  border-radius: 4px;
+  opacity: 70%;
+  max-width: 385px;
+  background-color: #2F80ED;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.form__button:hover{
+  opacity: 100%;
+}
+/*chequear esto debido a
+que no cuadra aun para localizar el cuadro de terminos y condiciones*/
+.form__checkbox{
+  padding-top: 32px;
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+
+}
+.form__checkbox[type="checkbox"]:checked{
+  background-color: #2F80ED;
+  background-image: url(../images/check.svg);
+}
