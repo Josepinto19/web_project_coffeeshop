@@ -204,7 +204,7 @@
 p{
   margin: 0;
 }
-.content_reservation{
+.reservation{
   background-color: #D9E7FF;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
@@ -234,7 +234,7 @@ p{
   border: none;
 
 }
-.form__fieldset{
+.reservation__form-fieldset{
   display: flex;
   flex-direction: column;
   margin: 0%;
@@ -245,14 +245,14 @@ p{
   font-size: 16px;
   line-height: 20px;
 }
-.form__label{
+.reservation__form-label{
   text-align: start;
   display: flex;
   flex-direction: column;
   column-gap: 8px;
   margin-bottom: 8px;
 }
-.form__input{
+.reservation__form-input{
   display: flex;
   flex-direction: row;
   border-radius: 4px;
@@ -264,7 +264,7 @@ p{
   bottom: 15px;
   border-color: #838383;
 }
-.form__input::placeholder{
+.reservation__form-input::placeholder{
     font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -273,7 +273,7 @@ p{
   color: #838383;
 }
 /*tener en cuenta que hace falta continuar arreglando la parte visual*/
-.form__button{
+.reservation__form-button{
   border-radius: 4px;
   opacity: 70%;
   max-width: 385px;
@@ -290,7 +290,7 @@ p{
   line-height: 20px;
   color: #ffffff;
 }
-.form__button:hover{
+.reservation__form-button:hover{
   opacity: 100%;
 }
 .form__label_terms{
