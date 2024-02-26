@@ -48,7 +48,7 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img src="images/logo_coffeeshop_dark.svg" alt="logo.png" class="logo">
+          <img src="images/logo_coffeeshop_dark.svg" alt="logo.png" class="nav__logo">
           <ul class="nav__links">
             <li>
               <a href="#Recetas" class="nav__link">Receta</a>
@@ -98,7 +98,7 @@
         </section>
         <section class="reservation" id="Reservar-mesa">
             <h2 class="reservation__title">Reservar una mesa</h2>
-            <div class="reservation__form">
+            <form class="form reservation__form">
               <fieldset class="reservation__form-fieldset">
                 <label for="name" class="reservation__form-label">Nombre*</label>
                 <input type="text" class="reservation__form-input" id="name" name="name" placeholder="Nombre Apellido">
@@ -115,11 +115,11 @@
               </fieldset>
               <button class="reservation__form-button">Reservar una mesa</button>
               <label for="terms-of-use" class="reservation__form-checkbox">
-                <input type="checkbox" class="reservation__form-input-checkbox" id="terms-of-use" name="terms-of-use" value="terms-of-use" checked><!-- aca-->
+                <input type="checkbox" class="reservation__form-input-checkbox" id="terms-of-use" name="terms-of-use" value="terms-of-use" checked>
                 <span class="reservation__form-pseudo-item"></span>
                 <span class="reservation__form-pseudo-text">Acepto los términos de uso</span>
               </label>
-            </div>
+            </form>
         </section>
         <section class="content content_menu" id="Menu"></section>
         <section class="content content_about" id="Contactos"></section>
