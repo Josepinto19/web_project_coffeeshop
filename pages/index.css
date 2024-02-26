@@ -293,7 +293,7 @@ p{
 .reservation__form-button:hover{
   opacity: 100%;
 }
-.form__label_terms{
+.reservation__form-label{
   display: flex;
   flex-direction: row;
   font-family: Inter;
@@ -310,7 +310,7 @@ p{
 }
 /*chequear esto debido a
 que no cuadra aun para localizar el cuadro de terminos y condiciones*/
-.form__checkbox{
+.reservation__form-checkbox{
   border-radius: 2px;
   height: 20px;
   width: 20px;
@@ -318,7 +318,7 @@ que no cuadra aun para localizar el cuadro de terminos y condiciones*/
   margin-right: 12px;
 
 }
-.form__checkbox[type="checkbox"]:checked{
+.reservation__form-checkbox[type="checkbox"]:checked{
   background-color: #2F80ED;
   background-image: url(../images/check.svg);
 }
