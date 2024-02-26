@@ -231,8 +231,6 @@ p{
   padding-bottom: 120px;
   display: flex;
   flex-direction: column;
-  border: none;
-
 }
 .reservation__form-fieldset{
   display: flex;
@@ -244,6 +242,7 @@ p{
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: 0;
 }
 .reservation__form-label{
   text-align: start;
@@ -257,7 +256,6 @@ p{
   flex-direction: row;
   border-radius: 4px;
   height: 60px;
-  margin-bottom: 32px;
   padding-left: 20px;
   padding-right: 20px;
   top: 15px;
@@ -281,6 +279,7 @@ p{
   height: 60px;
   margin: 0;
   padding: 0;
+  margin-top: 32px;
   align-items: center;
   justify-content: center;
   font-family: Inter;
@@ -322,11 +321,11 @@ que no cuadra aun para localizar el cuadro de terminos y condiciones*/
   background-color: #2F80ED;
   background-image: url(../images/check.svg);
 }
-.form__pseudo-item_type_checkbox{
+.reservation__form-pseudo-item{
   margin: 0;
   padding: 0;
 }
-.form__label-text{
+.reservation__form-label-text{
   padding: 0;
   margin: 0;
   border: 0;
