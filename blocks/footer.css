@@ -1,0 +1,80 @@
+@import url(../pages/index.css);
+.footer{
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  color: #ffffff;
+}
+.footer_content{
+  display: flex;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-right: 100px;
+  margin: auto;
+}
+.footer_logo{
+  width: 105px;
+  height: 39px;
+  padding-top:0;
+  margin-top:0;
+  padding-left:0;
+  margin-left:0;
+  margin-top:0;
+}
+.footer_social{
+  margin: auto;
+  margin-right:0%;
+  margin-top:0;
+  text-align: start;
+}
+.footer_heading{
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer_list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin: 0%;
+  padding: 0%;
+}
+.footer_list-item{
+  height: 16px;
+}
+.footer_social-link{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  max-height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer_social-link:hover{
+  color: #C1C1C1;
+}
+/* preguntar sobre la trancision debido al tiempo sin embargo se puede usar
+transition: all 0.4s linear; */
+.footer_social-icon{
+  width: 16px;
+  height: 16px;
+  margin: 0%;
+  padding: 0%;
+  padding-right: 10px;
+}
+.copyright{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  display: block;
+  text-align: start;
+  margin: 0%;
+}

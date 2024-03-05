@@ -7,9 +7,8 @@
     <meta name="author" content="jose pinto">
     <meta name="description" content="pagina web">
     <meta name="keywords" content="cafeteria, sitio-web">
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="favicon.ico" />
+    <link rel="stylesheet" href="favicon.ico"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -121,10 +120,142 @@
               </label>
             </form>
         </section>
-        <section class="content content_menu" id="Menu"></section>
-        <section class="content content_about" id="Contactos"></section>
+        <section class="menu" id="Menu">
+          <h2 class="menu__title">Menú</h2>
+          <h3 class="menu__subtitle">Elaboramos nuestro café con granos certificados de comercio justo, tostados localmente,
+            y usamos tazas biodegradables. Todos los tés de nuestra colección a $2/taza</h3>
+          <div class="menu__cards">
+            <div class="header__cards"></div>
+              <div class="card">
+              <h2 class="card card__title">De filtro</h2>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Regular (350 ml)
+                  <span class="card__list-divider"></span>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Grande (470 ml)
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (590 ml)
+                  <span class="card__list-divider"></span>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Tamaño familiar (700 ml, descafeinado)
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Café helado (470 ml)
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+              </ul>
+              </div>
+              <div class="card">
+              <h2 class="card__title">Expresso</h2>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"></span>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Amanecer en Bay Area (descafeinado)
+                  <span class="card__list-divider"></span>
+                  $10
+                </li>
+              </ul>
+              </div>
+          </div>
+          <div class="card">
+            <h2 class="card__title">Repostería</h2>
+            <ul class="card__content">
+              <li class="card__list-item">
+                Croissant de almendra
+                <span class="card__list-divider"></span>
+                $2
+              </li>
+              <li class="card__list-item">
+                Pan de banana
+                <span class="card__list-divider"></span>
+                $1.75
+              </li>
+              <li class="card__list-item">
+                Tarta de limón
+                <span class="card__list-divider"></span>
+                $3
+              </li>
+              <li class="card__list-item">
+                Pastel Blue velvet
+                <span class="card__list-divider"></span>
+                $3.75
+              </li>
+              <li class="card__list-item">
+                Cookie web
+                <span class="card__list-divider"></span>
+                $2
+              </li>
+              <li class="card__list-item">
+                Baguette fresco
+                <span class="card__list-divider"></span>
+                $0.25
+              </li>
+            </ul>
+            </div>
+
+        </section>
+        <section class="about" id="Contactos">
+          <h1 class="about_title">Sobre la cafetería</h1>
+          <div class="about_content">
+            <p class="about_paragraph">Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta con 6
+              mesas y WiFi gratuito.</p>
+            <p class="about_paragraph">Nuestra principal misión es mantener a nuestros comensales
+              cómodos y con energía.</p>
+            <p class="about_paragraph">Además, buscamos reducir nuestro impacto ambiental, por lo que no
+              vendemos tazas de un solo uso. ¡Pero puedes comprar una de
+              nuestras tazas reutilizables!</p>
+          </div>
+          <div class="about_circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <section class="footer_content">
+          <img class="footer_logo" src="./images/logo_coffeeshop_light.svg" alt="footer_logo">
+          <div class="footer_social">
+            <h2 class="footer_heading">Redes sociales</h2>
+            <ul class="footer_list">
+              <li class="footer_list-item">
+                <a class="footer_social-link" href="#">
+                  <img class="footer_social-icon" src="./images/facebook_white.svg" alt="footer_social-icon">
+                  Facebook
+                </a>
+              </li>
+              <li class="footer_list-item">
+                <a class="footer_social-link" href="#">
+                  <img class="footer_social-icon" src="./images/instagram_white.svg" alt="footer_social-icon">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <p class="copyright">© 2024 Jose Pinto</p>
+      </footer>
       <section class="section"></section>
     </div>
   </body>
