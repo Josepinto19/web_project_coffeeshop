@@ -307,7 +307,7 @@ del bref */
   overflow: hidden;
   position: relative;
 }
-.about_title{
+.about__title{
   display: flex;
   max-width: 251px;
   padding-left: 80px;
@@ -320,7 +320,7 @@ del bref */
   z-index: 1;
   margin: 0%;
 }
-.about_content{
+.about__content{
   max-width: 660px;
   padding-top: 119px;
   padding-right: 80px;
@@ -335,10 +335,10 @@ del bref */
   text-align: start;
   z-index: 2;
 }
-.about_paragraph{
+.about__paragraph{
   row-gap: 20px;
 }
-.about_circle{
+.about__circle{
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
